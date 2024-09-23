@@ -1,0 +1,15 @@
+  1.0d3      integration time (days)
+  2.5d-2     timestep (days)
+  1.00d0     period of outputs
+  2.50d1     friction between layer (tauR, days)
+  1.50d0     boundary layer friction (tauE, days)
+  0.40d0     hyperdiffusion (tauH, days)
+  8.00d0     tiH0 orography normalizaton (H0, km) ! 1 in original MMT paper
+  7.00d1     ar1=(a/R1)**2 (a=6370, R1=701)     ! recalculated in the code
+  1.70d2     ar2=(a/R2)**2 (a=6370, R2=446)     ! recalculated in the code
+  4.0d0   rpar forcing rescaling
+  1.0d0   tpar orography rescaling  !
+  2.0d0   Coriolis in 1/Omega
+  1       output as spectral 
+  0       output as 64*16 grid  (will not work)
+  1       output as 90*23 grid
